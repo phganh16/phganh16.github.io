@@ -1,0 +1,125 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+@font-face{
+	scr: url("fonts/Ubuntu-Regular.ttf");
+	font-family: Ubuntu;
+}
+@font-face{
+	scr: url("fonts/KronaOne-Regular.ttf");
+	font-family: Kone;
+}
+body{
+	margin: 0 auto;
+}
+.container{
+	width: 1280px;
+	height: 1200px;
+	margin: 0 auto;
+}
+.header{
+	width: 1280px;
+	height: 100px;
+}
+.header .logo{
+	width: 200px;
+	float: left;
+}
+
+.header .logo img{
+	width: 200px;
+}
+.menu{
+	width: 900px;
+	height: 65px;
+	float: right;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+	margin-left: 50px;	
+}
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	font-family: Ubuntu;
+	font-size: 20px;
+	color: black;
+}
+.content{
+	width: 1280px;
+	height: 1650px;
+}
+.content .nd{
+	width: 1280px;
+	height: 500px;
+}
+
+.content .nd .ndleft{
+	width: 896px;
+	height: 500px;
+	float: left;
+}
+.content .nd .ndleft img{
+	width: 700px;
+}
+.content .nd .ndleft p{
+	font-family: Kone;
+	font-size: 100px;
+	margin-top: -500px;
+	margin-left: 150px;
+}
+.content .nd .ndleft h1{
+	font-family: Kone;
+	font-size: 60px;
+	transform: rotate(-90deg);
+	margin-right: 500px;
+}
+
+.content .nd .ndright{
+	width: 384px;
+	height: 500px;
+	float: left;
+}
+.content .nd .ndright p{
+	font-family: Kone;
+	font-size: 30px;
+	margin-top: 250px;
+}
+.content .ntext{
+	width: 1280px;
+	height: 100px;
+	margin-left: 30px;
+}
+.content .ntext .title{
+	margin-top: 50px;
+	margin-bottom: 10px;	
+}
+.content .img2 img{
+	float: right;
+	width: 700px;
+}
+.footer {
+	width: 1280px;
+	height: 200px;
+	background-color:antiquewhite;
+}
+.footer .boxleft{
+	width: 640px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 45px;
+	font-size: 20px;
+}
+.footer .boxright img{
+	width: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+}
